@@ -50,7 +50,7 @@ function atividadeCNH(){
 
     }
 
-    golsMarcado()
+    //golsMarcado()
     function golsMarcado(){
 
         let timeA = prompt("Qual nome do primeiro time: ")
@@ -71,7 +71,80 @@ function atividadeCNH(){
 
         }
         
+        //investigacaoCriminal()
+        function investigacaoCriminal(){
+
+            let telefone = prompt("Telefonou para a vítima?: ")
+            let local = prompt("Esteve no local do crime?: ")
+            let mora = prompt("Mora perto da vítima?: ")
+            let devia = prompt("Devia para a vítima?: ")
+            let trabalhou = prompt("Já trabalhou para vítima?: ")
+
+            if(telefone == "sim"&& local == "sim"&& mora == "sim"&& devia == "sim"&& trabalhou == "sim"){
+                console.log("Assassino")
+            }
+            else if(telefone == "sim"&& local == "sim"&& mora == "sim"&& devia == "sim"&& trabalhou == "nao"){
+                console.log("Cúmplice")
+            }
+            else if(telefone == "sim"&& local == "sim"&& mora == "sim"&& devia == "nao"&& trabalhou == "sim"){
+                console.log("Cúmplice")
+            }
+            else if(telefone == "sim"&& local == "sim"&& mora == "nao"&& devia == "sim"&& trabalhou == "sim"){
+                console.log("Cúmplice")
+            }
+            else if(telefone == "sim"&& local == "nao"&& mora == "sim"&& devia == "sim"&& trabalhou == "sim"){
+                console.log("Cúmplice")
+            }
+            else if(telefone == "nao"&& local == "sim"&& mora == "sim"&& devia == "sim"&& trabalhou == "sim"){
+                console.log("Cúmplice")
+            }
+            else if(telefone == "sim"&& local == "sim"&& mora == "sim"&& devia == "nao"&& trabalhou == "nao"){
+                console.log("Cúmplice")
+            }
+            else if(telefone == "sim"&& local == "sim"&& mora == "nao"&& devia == "nao"&& trabalhou == "sim"){
+                console.log("Cúmplice")
+            }
+            else if(telefone == "nao"&& local == "nao"&& mora == "sim"&& devia == "sim"&& trabalhou == "sim"){
+                console.log("Cúmplice")
+            }
+            else if(telefone == "sim"&& local == "nao"&& mora == "sim"&& devia == "nao"&& trabalhou == "sim"){
+                console.log("Cúmplice")
+            }
+            else if(telefone == "sim"&& local == "nao"&& mora == "nao"&& devia == "sim"&& trabalhou == "sim"){
+                console.log("Cúmplice")
+            }
+            else if(telefone == "nao"&& local == "nao"&& mora == "nao"&& devia == "sim"&& trabalhou == "sim"){
+                console.log("Suspeito")
+            }
+            else if(telefone == "nao"&& local == "nao"&& mora == "sim"&& devia == "sim"&& trabalhou == "nao"){
+                console.log("Suspeito")
+            }
+            else if(telefone == "sim"&& local == "sim"&& mora == "nao"&& devia == "nao"&& trabalhou == "nao"){
+                console.log("Suspeito")
+            }
+            else if(telefone == "sim"&& local == "nao"&& mora == "sim"&& devia == "nao"&& trabalhou == "nao"){
+                console.log("Suspeito")
+            }
+            else if(telefone == "sim"&& local == "nao"&& mora == "nao"&& devia == "sim"&& trabalhou == "nao"){
+                console.log("Suspeito")
+            }
+            else if(telefone == "sim"&& local == "nao"&& mora == "nao"&& devia == "nao"&& trabalhou == "sim"){
+                console.log("Suspeito")
+            }
+            else if(telefone == "sim"&& local == "nao"&& mora == "nao"&& devia == "nao"&& trabalhou == "sim"){
+                console.log("Suspeito")
+            }
+            else if(telefone == "nao"&& local == "sim"&& mora == "sim"&& devia == "nao"&& trabalhou == "nao"){
+                console.log("Suspeito")
+            }
             
+            
+            else{
+                console.log("Inocente ")
+            }
+
+        }
+        
         
        
 
